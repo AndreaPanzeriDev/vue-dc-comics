@@ -47,7 +47,7 @@
         </div>
       </div>
       <!--immagine logo -->
-      <div>
+      <div class="cutimage">
         <img src="../assets/img/dc-logo-bg.png" alt="favicon"/>
       </div>
     </div>
@@ -60,7 +60,11 @@ export default {};
 
 <style scoped lang="scss">
 .Utilities {
+  padding: 2% 0;
   background-image: url('../assets/img/footer-bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+
 }
 
 /*******************
@@ -89,5 +93,10 @@ a {
 
 .linkspace > div{
   display: flex;
+}
+
+
+.cutimage{
+  height: 150%;
 }
 </style>
