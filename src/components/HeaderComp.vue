@@ -86,7 +86,7 @@ a:hover {
 }
 
 .esistential_problem {
-  padding: 3% 0;
+  padding: 2.5% 0;
 }
 
 .esistential_problem h2 {
