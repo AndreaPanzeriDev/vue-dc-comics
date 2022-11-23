@@ -32,7 +32,7 @@ export default {};
 <style lang="scss">
 .container {
   background-color: #007cf2;
-  height: 20vh;
+  
 }
 
 /*****************************
@@ -46,7 +46,7 @@ ul {
   width: 80%;
   margin: auto;
   padding: 0;
-  height: 100%;
+  
 }
 
 li {
