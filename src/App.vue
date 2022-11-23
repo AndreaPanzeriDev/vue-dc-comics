@@ -2,19 +2,22 @@
   <div id="app">
     
     <HeaderComp/>
-    <MainComp/>
+    <MainComp/>,
+    <LinkComp/>
   </div>
 </template>
 
 <script>
 import HeaderComp from './components/HeaderComp.vue'
 import MainComp from './components/MainComp.vue'
+import LinkComp from './components/LinkComp.vue'
 
 export default {
   name: 'App',
   components: {
     HeaderComp,
-    MainComp
+    MainComp,
+    LinkComp
   }
 }
 </script>
