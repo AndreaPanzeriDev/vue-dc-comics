@@ -47,7 +47,6 @@ export default {
   justify-content: space-between;
   width: 80%;
   margin: auto;
-  height: 15vh;
 }
 
 /*****************************
@@ -87,7 +86,7 @@ a:hover {
 }
 
 .esistential_problem {
-  height: 15vh;
+  padding: 5% 0;
 }
 
 .esistential_problem h2 {
