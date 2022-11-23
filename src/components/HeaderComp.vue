@@ -18,7 +18,9 @@
       </div>
     </div>
     <div class="content">
-      <h2>--Content goes here-- </h2>
+      <div class="esistential_problem">
+        <h2>--Content goes here--</h2>
+      </div>
     </div>
   </div>
 </template>
@@ -36,16 +38,7 @@ export default {
   
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-
-
-/********************
-       COMMON
-*********************/
-
-
-
-
-.container{
+.container {
   background-color: white;
 }
 
@@ -54,6 +47,7 @@ export default {
   justify-content: space-between;
   width: 80%;
   margin: auto;
+  height: 15vh;
 }
 
 /*****************************
@@ -88,14 +82,17 @@ a:hover {
 /********************
        CONTENT
 *********************/
-.content{
+.content {
   background-color: #1f1f1f;
 }
 
-.content h2{
+.esistential_problem {
+  height: 15vh;
+}
+
+.esistential_problem h2 {
   color: white;
   margin: 0;
-  padding-top: 3rem;
   width: 80%;
   margin: auto;
   font-size: 2rem;
