@@ -19,7 +19,7 @@
     </div>
     <div class="content">
       <div class="esistential_problem">
-        <h2>--Content goes here--</h2>
+        <img src="../assets/img/jumbotron.jpg" alt="jumbotron">
       </div>
     </div>
   </div>

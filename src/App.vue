@@ -2,7 +2,7 @@
   <div id="app">
     
     <HeaderComp/>
-    <MainComp/>,
+    <MainComp/>
     <FooterComp/>
   </div>
 </template>
