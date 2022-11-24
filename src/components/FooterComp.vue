@@ -47,8 +47,7 @@
         </div>
       </div>
       <!--immagine logo -->
-      <div class="cutimage">
-      </div>
+      <div class="cutimage"></div>
     </div>
     <div class="singUp dflex vcenterItems">
       <div class="correction">

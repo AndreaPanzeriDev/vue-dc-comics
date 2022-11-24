@@ -21,7 +21,12 @@
       <div class="jumbotron">
         <button>CURRENT SERIES</button>
       </div>
-      <div class="cards"></div>
+      <div class="cards">
+        <CardComp v-for="(element, index) in comics"
+        :key="index"
+        :singleItem="element"
+        />
+      </div>
     </div>
   </div>
 </template>
@@ -29,8 +34,14 @@
 
 
 <script>
+
+import CardComp from './CardComp.vue'
+
 export default {
   name: "HelloWorld",
+  components : {
+    CardComp
+  },
   props: {
     msg: String,
   },
@@ -202,6 +213,14 @@ a:hover {
   position: absolute;
   left: 15%;
   bottom: -5%;
+}
+
+.cards{
+  display: flex;
+  width: 80%;
+  margin: auto;
+  flex-wrap: wrap;
+  padding: 40px 0;
 }
 </style>
 
