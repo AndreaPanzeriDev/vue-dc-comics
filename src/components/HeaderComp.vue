@@ -18,8 +18,11 @@
       </div>
     </div>
     <div class="content">
-      <div class="esistential_problem">
-        <img src="../assets/img/jumbotron.jpg" alt="jumbotron">
+      <div class="jumbotron">
+        <button>CURRENT SERIES</button>
+      </div>
+      <div class="cards">
+
       </div>
     </div>
   </div>
@@ -89,13 +92,30 @@ a:hover {
   padding: 2.5% 0;
 }
 
-.esistential_problem h2 {
-  color: white;
-  margin: 0;
-  width: 80%;
-  margin: auto;
-  font-size: 2rem;
+/********************
+      JUMBOTRON
+*********************/
+
+.jumbotron{
+  background-image: url('../assets/img/jumbotron.jpg');
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  position: relative;
 }
+
+.jumbotron > button{
+  color: white;
+  font-weight: bold;
+  border: 2px solid #007cf2;
+  background-color: #007cf2;
+  padding: 10px 40px;
+  position: absolute;
+  left: 15%;
+  bottom: -5%;
+}
+
 </style>
 
 
