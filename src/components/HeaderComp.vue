@@ -27,6 +27,7 @@
         :singleItem="element"
         />
       </div>
+      <button class="loadmore">LOAD MORE</button>
     </div>
   </div>
 </template>
@@ -185,6 +186,8 @@ a:hover {
 *********************/
 .content {
   background-color: #1f1f1f;
+  text-align: center;
+  margin-bottom: 25px;
 }
 
 .esistential_problem {
@@ -215,12 +218,26 @@ a:hover {
   bottom: -5%;
 }
 
+/********************
+       CARDS
+*********************/
+
 .cards{
   display: flex;
   width: 80%;
   margin: auto;
   flex-wrap: wrap;
-  padding: 40px 0;
+  padding: 50px 0;
+}
+
+
+.loadmore{
+  color: white;
+  background-color: #007cf2;
+  border: 2px solid #007cf2;
+  padding: 10px 40px;
+  align-self: center;
+  font-weight: bold;
 }
 </style>
 
