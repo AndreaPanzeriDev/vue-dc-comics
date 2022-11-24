@@ -48,7 +48,6 @@
       </div>
       <!--immagine logo -->
       <div class="cutimage">
-        <img src="../assets/img/dc-logo-bg.png" alt="favicon" />
       </div>
     </div>
     <div class="singUp dflex vcenterItems">
@@ -83,7 +82,6 @@ export default {};
   background-image: url("../assets/img/footer-bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  position: relative;
 }
 
 /*******************
@@ -116,22 +114,25 @@ a {
 
 .linkspace > div {
   display: flex;
+  padding: 20px;
 }
 
 .cutimage {
-  height: 150%;
+  background-image: url('../assets/img/dc-logo-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 50%;
 }
 
 /*******************
       FOOTER
 *******************/
 .singUp {
-  height: 13vh;
   width: 100vw;
   z-index: 0;
   background-color: #333333;
-  position: absolute;
-  bottom: 0;
+  
 }
 
 .correction {
