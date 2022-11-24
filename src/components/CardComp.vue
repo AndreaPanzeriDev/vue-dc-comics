@@ -16,12 +16,11 @@ export default {
 <style scoped>
 .card{
     width: calc(100% / 6);
+    text-align: center;
 }
-
 
 
 h6{
     color: white;
-    text-align: center;
 }
 </style>
